@@ -445,7 +445,7 @@ class SystemMonitorGUI:
         self.monitoring = False
         self.start_btn.configure(state="normal")
         self.stop_btn.configure(state="disabled")
-        self.status_label.configure(text="⏹️ Monitoring Stopped", text_color="#64748b")
+        self.status_label.configure(text=" Monitoring Stopped", text_color="#64748b")
         self.alert_label.configure(text="No alerts", text_color="#64748b")
     
     def save_logs_csv(self):
